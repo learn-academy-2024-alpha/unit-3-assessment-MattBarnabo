@@ -39,23 +39,26 @@ PRs should be posted _before_ class begins on Monday, March 4, 2024.
 
 1. What are three (3) syntax differences between HTML and JSX?
 
--
--
--
+- JSX uses className instead of just class as an identifier.
+- JSX allows for the use of JavaScript in the return by placing it within {} curly braces and the use of html <tags><tags/> inside of functions and components.
+- JSX allows for Component calls using a <Component /> tag. Combining an html tag and 
 
 2. What is yarn? What file(s) are modified when you run the command yarn in your terminal?
+Yarn is a package manager that installs a large library of code snippets. Used to make your life easier as you didn't have to go out find and install all of the node modules yourself. When yarn is installed it modifies the yarn.lock, package.json, and the node modules in your react app file.
 
 3. What is the difference between state values and props in React?
+State values are mutable instances of your app's data at a given point in time. Props are the pipeline for you to pass data unidirectionally from your main .js file to your components.
 
 4. STRETCH (optional): What is the difference between a div tag and a span tag?
+The div tag is used to divide a block of your web page allowing you to separate certain parts of your page from other parts. The span tag is used to separate certain words or lines of text. Allowing you to make more specific edits to a set of data via CSS.
 
 ### Looking Ahead: Terms for Next Unit
 
-1. Object-oriented programming:
+1. Object-oriented programming: Object-oriented programming looks at the object you want to change instead of the logic. It works well for large programs. You can break projects down into smaller groups for teams to work on. It's very scalable, has wonderful efficiency and focuses on code reusability. OOP's structure is broken down into 4 main areas classes, objects, methods and attributes. It also has 4 main principles which are encapsulation, abstraction, inheritance, and polymorphism.
 
-2. Ruby:
+2. Ruby: Ruby is an open-source object-oriented scripting language. Object-oriented languages create smaller pieces of code turning them into objects. They are reusable and can even be used in other applications. It was created by Yukihiro Matsumoto in the 90's. He wanted to speed up development by making code more reusable.
 
-3. Ruby Hashes:
+3. Ruby Hashes: Hashes are like objects in JavaScript. It contains a set of key-value pairs. In Ruby hashes are called by calling the hash name followed by the [key] in square brackets. A hash is written within {} curly brackets. It utilizes the hash rocket (=>) instead of a semicolon (:) to separate a key and value within the hash.
 
 ---
 
